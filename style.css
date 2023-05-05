@@ -1,0 +1,35 @@
+body{
+    font-family: 'Castoro Titling', cursive;
+}
+h1{
+    font-size: 50px;
+}
+.red{
+    color: red;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 3%;
+    
+}
+.half-width img{
+    width: 50%;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(red,orange);
+    font: weight 700px; ;
+    padding: 10px 10px;
+    border-radius: 3px 3px;
+    color: black;
+
+
+}
+.upper{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat ;
+
+}
