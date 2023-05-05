@@ -7,8 +7,9 @@ h1{
 .red{
     color: red;
 }
-section{
+.flexible{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -17,7 +18,8 @@ section{
     
 }
 .half-width img{
-    width: 50%;
+    width: 40%;
+    
 }
 .button{
     text-decoration: none;
@@ -40,4 +42,19 @@ section{
     background-position: right;
     
 
+}
+.con{
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.expo{
+   
+    
+    width: 30%;
+    margin-left: 10%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 60px gray;
+    padding-left: 40px;
+    border-radius: 10px;
 }
