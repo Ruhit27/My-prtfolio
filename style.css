@@ -47,6 +47,7 @@ h1{
     display: flex;
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
+    
 }
 .expo{
    
@@ -57,4 +58,16 @@ h1{
     box-shadow: 10px 10px 60px gray;
     padding-left: 40px;
     border-radius: 10px;
+    height: 80%;
+
+    
+}
+#first{
+    border-left: 7px solid red;
+}
+#second{
+    border-right: 7px solid blue;
+}
+footer p{
+    text-align: center;
 }
